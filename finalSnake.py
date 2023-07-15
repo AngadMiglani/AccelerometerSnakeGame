@@ -30,7 +30,7 @@ snake.append(snake_mouth)
 direction = 0
 direction_list.append(direction)
 
-host = "192.168.0.106"  # '#'127.0.0.1'
+host = "0.0.0.0"  
 port = 5555
 global soc
 soc = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
